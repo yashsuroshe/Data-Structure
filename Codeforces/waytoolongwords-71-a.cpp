@@ -17,6 +17,7 @@ int main()
     {
         cout<<s;
     }
+    cout<<endl;
 }
     return 0;
 }
