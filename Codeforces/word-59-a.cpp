@@ -15,15 +15,16 @@ int main()
     }
     if(c2>c1)
     {
-        for(char c:s)
+        for(char &c:s)
         {
-            cout<<toupper(c);
+            c=toupper(c);
         }
     }
     else
     {
-        for(char c:s)
-        cout<<tolower(c);
+        for(char &c:s)
+        c=tolower(c);
     }
+    cout<<s;
     return 0;
 }
